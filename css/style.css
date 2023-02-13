@@ -1,0 +1,28 @@
+.bold {
+  font-weight: bolder;
+}
+.italic {
+  font-style: italic;
+}
+.underLine {
+  text-decoration: underline;
+}
+.alignLeft {
+  text-align: left;
+}
+.alignCenter {
+  text-align: center;
+}
+.alignRight {
+  text-align: right;
+}
+.upperCase {
+  text-transform: uppercase;
+}
+img {
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
