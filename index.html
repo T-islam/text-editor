@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="bg-cyan-400 md:w-3/4 container rounded-lg mx-auto mt-6 p-5" >
+        <h1 class='text-center'>My Text Editor</h1>
+        <section class="border-2 border-black bg-cyan-800">
+            <div class="flex justify-between mx-6 p-3">
+                <div>
+                <span class="px-1"><img src="./icons/bold.png" alt="" width="16px" class="inline"></span>
+                <span class="px-1"><img src="./icons/italics.png" alt="" width="16px" class="inline"></span>
+                <span class="px-1"><img src="./icons/underlined-text.png" alt="" width="16px" class="inline"></span>
+                
+            </div>
+             <div class="flex justify-between w-48">
+                 <span class="px-1"><img src="./icons/align-left.png" alt="" width="16px"" class="inline"></span>
+                 
+                <span class="px-1"><img src="./icons/centered-text-of-alignment-button.png" alt="" width="16px" class="inline"></span>
+                  
+                  <span class="px-1"><img src="./icons/right-text-alignment.png" alt="" width="16px" class="inline"></span>
+                  
+                  
+                  
+            </div>
+            <div>
+                <input type="number" name="" id="fontSize" class="w-8 h-6">
+                <span class="px-1"><img src="./icons/underlined-text.png" alt="" width="16px" class="inline"></span>
+                <input type="color" id="color">
+            </div>
+            </div>
+            <hr>
+            <div class="p-2">
+                <textarea name="" id="textbox" cols="30" rows="10" class="p-3 w-full"></textarea>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
